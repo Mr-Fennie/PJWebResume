@@ -210,7 +210,8 @@ a {
   background: tomato;
 }
 
-.cardBox:nth-child(2) .card {
+/* Speed changes on flip */
+/* .cardBox:nth-child(2) .card {
   -webkit-animation: giro 1.5s 1;
   animation: giro 1.5s 1;
 }
@@ -223,7 +224,7 @@ a {
 .cardBox:nth-child(4) .card {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
-}
+} */
 
 @-webkit-keyframes giro {
   from {
