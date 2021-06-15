@@ -55,7 +55,9 @@ h2:after{content:"";display:block;background-color:#5398C6;height:3px;margin:20p
 }
 
 
+
 body{
+  margin: auto 0;
   color: rgba(0,0,0,.5);
   /* background: linear-gradient(to bottom right, rgb(148, 214, 255), rgb(253, 145, 215)); */
   background: linear-gradient(to bottom right, rgb(148, 214, 255), rgb(255, 255, 255), rgb(253, 145, 215));
@@ -65,85 +67,15 @@ body{
 
 /* for flip cards */
 
-/* Flip card Mechanic */
-/* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono"); */
-
-/* * {
-  box-sizing: border-box;
-  font-weight: normal;
-}
-
-body {
- /* text-align: center; */
-  /* font-family: "Roboto Mono"; */
-  /* padding: 1em; */
-}
-
-h1 {
-  font-size: 2.2em;
-}
-
-.flip {
-  position: relative;
-  text-align: center;
-}
-.flip > .front,
-.flip > .back {
-  display: block;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: 0.5s;
-  transition-property: transform, opacity;
-}
-.flip > .front {
-  transform: rotateY(0deg);
-}
-.flip > .back {
-  position: absolute;
-  opacity: 0;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  transform: rotateY(-180deg);
-}
-.flip:hover > .front {
-  transform: rotateY(180deg);
-}
-.flip:hover > .back {
-  opacity: 1;
-  transform: rotateY(0deg);
-}
-
-.flip {
-  position: relative;
-  display: inline-block;
-  margin-right: 2px;
-  margin-bottom: 1em;
-  width: 300px;
-}
-.flip > .front,
-.flip > .back {
-  display: block;
-  color: white;
-  width: inherit;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 220px;
-  padding: 1em 2em;
-  background: #313131;
-  border-radius: 5px;
-}
-.flip > .front p,
-.flip > .back p {
-  /* font-size: 0.9125rem; */
-  font-size: 1.2rem;
-  line-height: 160%;
-  color: #999;
-} */
 
 .text-shadow {
+  font-size: 2.4em;
   top: 10px;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04);
+
+  /* , 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04); */
+  /* , 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04); */
+
 }
 
 
@@ -162,44 +94,17 @@ h1 {
 }
 
 
-@media screen and (max-width: 767px) {
-  .flip {
-    margin-left: 2.8%;
-    margin-top: 3%;
-    width: 46%;
-  }
-  .flip > .front,
-  .flip > .back {
-    height: 285px;
-  }
-  .flip:last-child {
-    margin-bottom: 3%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .flip {
-    width: 94.5%;
-  }
-  .flip > .front,
-  .flip > .back {
-    height: 260px;
-  }
-}
-
-
-
 /* Another Flip */
 
 
-h1 {
-  /* background: #333; */
+/* h1 {
+  background: #333;
   color: #fff;
   text-align: center;
   margin: 0 0 5% 0;
   padding: 0.5em;
   margin: 0 0 5% 0;
-}
+} */
 
 .cardBox {
   float: left;
@@ -241,7 +146,7 @@ h1 {
   box-sizing: border-box;
   color: white;
   display: block;
-  font-size: 1.2em;
+  font-size: 0.86em;
   height: 100%;
   padding: 0.8em;
   position: absolute;
@@ -270,15 +175,18 @@ h1 {
 }
 
 .card .back a {
-  padding: 0.3em 0.5em;
+  /* padding: 0.3em 0.5em;
   background: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 1px;
-  font-size: 0.9em;
+  color: #fff; */
+text-decoration: none;
+  /* border-radius: 1px;
+  font-size: 0.9em; */
   transition: all 0.2s ease 0s;
 }
 
+a {
+  text-decoration: none;
+}
 .card .back a:hover {
   background: #fff;
   color: #333;
@@ -286,15 +194,15 @@ h1 {
 }
 
 .cardBox:nth-child(1) .card .back {
-  background: cornflowerblue;
+  background: #F3B0FF;
 }
 
 .cardBox:nth-child(2) .card .back {
-  background: orange;
+  background: #BCFF64;
 }
 
 .cardBox:nth-child(3) .card .back {
-  background: yellowgreen;
+  background: #87CEEB;
 }
 
 .cardBox:nth-child(4) .card .back {
@@ -336,7 +244,7 @@ h1 {
 
 @media screen and (max-width: 767px) {
   .cardBox {
-    margin-left: 2.8%;
+    /* margin-left: 2.8%; */
     margin-top: 3%;
     width: 46%;
   }
@@ -350,7 +258,8 @@ h1 {
 
 @media screen and (max-width: 992px) {
   .cardBox {
-    width: 95%;
+    width: 98%;
+    padding: 2%;
   }
   .card {
     height: 360px;
@@ -363,9 +272,16 @@ h1 {
 
 @media screen and (max-width: 480px) {
   .cardBox {
-    width: 94.5%;
+    width: 98%;
+    padding: 2%;
   }
   .card {
     height: 260px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .text-block{
+    font-size: 0.84em;
+    padding: 0;
   }
 }
