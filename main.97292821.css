@@ -199,11 +199,13 @@ a {
 }
 
 .cardBox:nth-child(1) .card .back {
-  background: #F3B0FF;
+  /* background: #F3B0FF; */
+  background: #EE93FF;
 }
 
 .cardBox:nth-child(2) .card .back {
-  background: #BCFF64;
+  /* background: #BCFF64; */
+  background: #FFB878;
 }
 
 .cardBox:nth-child(3) .card .back {
